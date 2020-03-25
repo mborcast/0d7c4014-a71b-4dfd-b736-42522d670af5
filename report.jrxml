@@ -346,7 +346,7 @@
 				</reportElement>
 				<box leftPadding="5" bottomPadding="3"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" isBold="true"/>
+					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Informe de operaciones]]></text>
 			</staticText>
@@ -362,7 +362,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Titular]]></text>
 			</staticText>
@@ -378,7 +378,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Asesor en inversiones]]></text>
 			</staticText>
@@ -394,7 +394,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Número de contrato]]></text>
 			</staticText>
@@ -410,7 +410,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Institución financiera]]></text>
 			</staticText>
@@ -426,7 +426,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Cuenta de inversión]]></text>
 			</staticText>
@@ -440,7 +440,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{broker}]]></textFieldExpression>
 			</textField>
@@ -454,7 +454,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{number}]]></textFieldExpression>
 			</textField>
@@ -468,7 +468,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{descriptor}]]></textFieldExpression>
 			</textField>
@@ -484,7 +484,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="false"/>
+					<font size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[SaveNest de México, S.A. de C.V. Asesor en Inversiones Independiente]]></text>
 			</staticText>
@@ -498,7 +498,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{savenestID}]]></textFieldExpression>
 			</textField>
@@ -506,7 +506,7 @@
 				<reportElement x="180" y="0" width="622" height="40" uuid="d027f13e-649e-4083-8c27-4f2d3cb8cebf"/>
 				<box bottomPadding="3"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{end}]]></textFieldExpression>
 			</textField>
@@ -552,7 +552,7 @@
 								<reportElement x="0" y="0" width="140" height="20" forecolor="#FFFFFF" uuid="2be17722-61cc-40f1-94b2-8554df3e5ad7"/>
 								<box leftPadding="8" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Emisora]]></text>
 							</staticText>
@@ -567,7 +567,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{security}]]></textFieldExpression>
 							</textField>
@@ -580,7 +580,7 @@
 								<reportElement x="0" y="0" width="120" height="20" forecolor="#FFFFFF" uuid="ad6fa34a-a76a-4d2e-b7aa-5dd1ef68e351"/>
 								<box leftPadding="8" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Serie]]></text>
 							</staticText>
@@ -595,7 +595,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{series}]]></textFieldExpression>
 							</textField>
@@ -608,7 +608,7 @@
 								<reportElement x="0" y="0" width="190" height="20" forecolor="#FFFFFF" uuid="55432ec9-c8b3-41c4-b760-b93179f90e98"/>
 								<box leftPadding="8" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Títulos]]></text>
 							</staticText>
@@ -623,7 +623,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{units}]]></textFieldExpression>
 							</textField>
@@ -636,7 +636,7 @@
 								<reportElement x="0" y="0" width="130" height="20" forecolor="#FFFFFF" uuid="8a6b22c7-101b-4198-a219-21a48ad28e50"/>
 								<box leftPadding="8" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Precio]]></text>
 							</staticText>
@@ -651,7 +651,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{close}]]></textFieldExpression>
 							</textField>
@@ -664,7 +664,7 @@
 								<reportElement x="0" y="0" width="120" height="20" forecolor="#FFFFFF" uuid="98a31885-374f-4d75-83ac-519b471a85bc"/>
 								<box leftPadding="8" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Valor de mercado]]></text>
 							</staticText>
@@ -679,7 +679,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
 							</textField>
@@ -692,7 +692,7 @@
 								<reportElement x="0" y="0" width="101" height="20" forecolor="#FFFFFF" uuid="e1d8496b-5524-4d56-9c7b-92cd489e9ccd"/>
 								<box leftPadding="12" bottomPadding="2"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[%]]></text>
 							</staticText>
@@ -707,7 +707,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{weight}]]></textFieldExpression>
 							</textField>
@@ -721,7 +721,7 @@
 				</reportElement>
 				<box leftPadding="5" bottomPadding="0"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" isBold="true"/>
+					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Mercado accionario]]></text>
 			</staticText>
@@ -750,7 +750,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Emisora]]></text>
 							</staticText>
@@ -765,7 +765,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{security}]]></textFieldExpression>
 							</textField>
@@ -783,7 +783,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Fecha de inicio]]></text>
 							</staticText>
@@ -798,7 +798,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{operationDate}]]></textFieldExpression>
 							</textField>
@@ -816,7 +816,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Fecha de operación]]></text>
 							</staticText>
@@ -831,7 +831,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{expirationDate}]]></textFieldExpression>
 							</textField>
@@ -849,7 +849,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Monto invertido]]></text>
 							</staticText>
@@ -864,7 +864,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{amount}]]></textFieldExpression>
 							</textField>
@@ -882,7 +882,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Plazo]]></text>
 							</staticText>
@@ -897,7 +897,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{days}]]></textFieldExpression>
 							</textField>
@@ -915,7 +915,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Tasa rendimiento]]></text>
 							</staticText>
@@ -930,7 +930,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{returnRate}]]></textFieldExpression>
 							</textField>
@@ -948,7 +948,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Valor de mercado]]></text>
 							</staticText>
@@ -963,7 +963,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
 							</textField>
@@ -981,7 +981,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8" isBold="true"/>
+									<font size="8" isBold="true"/>
 								</textElement>
 								<text><![CDATA[%]]></text>
 							</staticText>
@@ -996,7 +996,7 @@
 									<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 								</box>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="8"/>
+									<font size="8"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{weight}]]></textFieldExpression>
 							</textField>
@@ -1010,7 +1010,7 @@
 				</reportElement>
 				<box leftPadding="5" bottomPadding="0"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" isBold="true"/>
+					<font isBold="true"/>
 				</textElement>
 				<text><![CDATA[Compras en reporto vigentes]]></text>
 			</staticText>
@@ -1034,7 +1034,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Efectivo]]></text>
 			</staticText>
@@ -1042,7 +1042,7 @@
 				<reportElement x="700" y="0" width="102" height="20" uuid="ce8a5817-c29f-42e4-a89f-1e255032133d"/>
 				<box leftPadding="8" bottomPadding="3"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cash-weight}]]></textFieldExpression>
 			</textField>
@@ -1050,7 +1050,7 @@
 				<reportElement x="580" y="0" width="120" height="20" uuid="e4847a66-5c8c-48c7-9329-40c7615fdb21"/>
 				<box leftPadding="8" bottomPadding="3"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cash-value}]]></textFieldExpression>
 			</textField>
@@ -1058,7 +1058,7 @@
 				<reportElement x="580" y="40" width="120" height="20" forecolor="#FFFFFF" uuid="9de23aef-db42-48bf-888d-850c0b47f1af"/>
 				<box leftPadding="8" bottomPadding="3"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{total-value}]]></textFieldExpression>
 			</textField>
@@ -1074,7 +1074,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Total]]></text>
 			</staticText>
@@ -1088,7 +1088,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{uamount-weight}]]></textFieldExpression>
 			</textField>
@@ -1102,7 +1102,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{uamount-value}]]></textFieldExpression>
 			</textField>
@@ -1118,7 +1118,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Operaciones pendientes por liquidar]]></text>
 			</staticText>
@@ -1128,7 +1128,7 @@
 				<reportElement x="0" y="12" width="802" height="49" uuid="ad271419-9d23-412d-895a-179a82897385"/>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="30"/>
 				<textElement textAlignment="Left" verticalAlignment="Top">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<text><![CDATA[SaveNest de México, S.A. de C.V. Asesor en Inversiones Independiente con número de folio de inscripción en el registro de Asesores en Inversiones asignado por la Comisión Nacional Bancaria y de Valores 30120-001-(14828)-31/10/2018 hace de su conocimiento que la Comisión Nacional Bancaria y de Valores supervisa exclusivamente la prestación de servicios de administración de cartera de valores cuando se tomen decisiones de inversión a nombre y por cuenta de terceros, así como los servicios consistentes en otorgar asesoría de inversión en Valores, análisis y emisión de recomendaciones de inversión de manera individualizada, por lo que carece de atribuciones para supervisar o regular cualquier otro servicio que proporcione Savenest.]]></text>
 			</staticText>
@@ -1144,7 +1144,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Tasa de rendimiento bruto]]></text>
 			</staticText>
@@ -1160,7 +1160,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Tasa de rendimiento neto]]></text>
 			</staticText>
@@ -1174,7 +1174,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{net}]]></textFieldExpression>
 			</textField>
@@ -1188,7 +1188,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{gross}]]></textFieldExpression>
 			</textField>
@@ -1202,7 +1202,7 @@
 				<reportElement x="594" y="72" width="208" height="20" forecolor="#FFFFFF" uuid="683fb4fb-8504-412c-ad94-4c6c1fb30add"/>
 				<box leftPadding="5" bottomPadding="2"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Monto]]></text>
 			</staticText>
@@ -1218,7 +1218,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Comisiones y gastos de intermediación*]]></text>
 			</staticText>
@@ -1234,7 +1234,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Comisiones y gastos por servicios]]></text>
 			</staticText>
@@ -1250,7 +1250,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Comisiones y gastos administrativos*]]></text>
 			</staticText>
@@ -1266,7 +1266,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Impuesto sobre la renta retenido*]]></text>
 			</staticText>
@@ -1279,7 +1279,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{isr}]]></textFieldExpression>
 			</textField>
@@ -1292,7 +1292,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{intermediacion}]]></textFieldExpression>
 			</textField>
@@ -1305,7 +1305,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{service}]]></textFieldExpression>
 			</textField>
@@ -1318,7 +1318,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{admin}]]></textFieldExpression>
 			</textField>
@@ -1326,7 +1326,7 @@
 				<reportElement x="410" y="72" width="184" height="20" forecolor="#FFFFFF" uuid="fa2be44a-5bd8-4b85-8cd7-2bc0cd04ee58"/>
 				<box leftPadding="10" bottomPadding="2"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Concepto]]></text>
 			</staticText>
@@ -1342,7 +1342,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="7" isBold="false"/>
+					<font size="7" isBold="false"/>
 				</textElement>
 				<text><![CDATA[* Tasa de rendimiento efectiva acumulada del año en curso]]></text>
 			</staticText>
@@ -1358,7 +1358,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="7" isBold="false"/>
+					<font size="7" isBold="false"/>
 				</textElement>
 				<text><![CDATA[* Rendimiento en pesos]]></text>
 			</staticText>
@@ -1374,7 +1374,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Fecha de depósito inicial]]></text>
 			</staticText>
@@ -1382,7 +1382,7 @@
 				<reportElement x="210" y="193" width="180" height="20" uuid="17e3c84b-ad12-45db-83b6-7c58350e80fb"/>
 				<box bottomPadding="3"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{firstDeposit}]]></textFieldExpression>
 			</textField>
@@ -1390,7 +1390,7 @@
 				<reportElement x="0" y="213" width="802" height="20" uuid="b1dc633a-01d0-45d2-bf97-d8f8e3dbc263"/>
 				<box leftPadding="5"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
-					<font fontName="Calibri" size="8"/>
+					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA["<span>El presente informe de operaciones comprende los movimientos del <i>"+$F{start}+"</i> al <i>" + $F{end} + "</i></span>"]]></textFieldExpression>
 			</textField>
@@ -1407,7 +1407,7 @@
 				<reportElement x="210" y="72" width="180" height="20" forecolor="#FFFFFF" uuid="05de08e8-dcc1-48a1-a7a5-9980df134361"/>
 				<box leftPadding="4" bottomPadding="2"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[%]]></text>
 			</staticText>
@@ -1415,7 +1415,7 @@
 				<reportElement x="0" y="72" width="210" height="20" forecolor="#FFFFFF" uuid="34550784-c2e4-41c6-a0b1-4f01b62e5555"/>
 				<box leftPadding="10" bottomPadding="2"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Concepto]]></text>
 			</staticText>
@@ -1431,7 +1431,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Calibri" size="7" isBold="false"/>
+					<font size="7" isBold="false"/>
 				</textElement>
 				<text><![CDATA[*Cobrado y/o retenido por la institución financiera, no por SaveNest
 ]]></text>
@@ -1442,7 +1442,7 @@
 				<reportElement x="0" y="0" width="800" height="19" uuid="ac37a30e-3002-4352-b7ef-51d899bb5a33"/>
 				<box leftPadding="2"/>
 				<textElement verticalAlignment="Middle" markup="html">
-					<font fontName="Calibri" size="8" isBold="true"/>
+					<font size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["<span>El presente informe de operaciones comprende los movimientos del <i>"+$F{start}+"</i> al <i>" + $F{end} + "</i></span>"]]></textFieldExpression>
 			</textField>
@@ -1464,7 +1464,7 @@
 								<reportElement x="0" y="0" width="59" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="1fc93377-f3d5-438a-8986-6ea78c31f2eb"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Fecha]]></text>
 							</staticText>
@@ -1474,7 +1474,7 @@
 								<reportElement x="0" y="0" width="59" height="13" uuid="ac542cbb-7737-416a-845b-e5631c84af5d"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{fecha}]]></textFieldExpression>
 							</textField>
@@ -1487,7 +1487,7 @@
 								<reportElement x="0" y="0" width="121" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="b201de09-08e3-4ff0-96a6-a4556c02a330"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Descripción]]></text>
 							</staticText>
@@ -1497,7 +1497,7 @@
 								<reportElement x="0" y="0" width="121" height="13" uuid="f9cdff64-f983-4864-b53d-4fa6d7ac9b2d"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{descripcion}]]></textFieldExpression>
 							</textField>
@@ -1510,7 +1510,7 @@
 								<reportElement x="0" y="0" width="60" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="bedbf797-0b15-48b3-9765-12b9bf2ea6ab"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Emisora]]></text>
 							</staticText>
@@ -1520,7 +1520,7 @@
 								<reportElement x="0" y="0" width="60" height="13" uuid="0dae1ca1-dbd1-4ea4-a0ec-2e56cf00bbf3"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{emisora}]]></textFieldExpression>
 							</textField>
@@ -1533,7 +1533,7 @@
 								<reportElement x="0" y="0" width="60" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="2af4b34b-aa41-40d9-8a5d-d5fc49abcc49"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Serie]]></text>
 							</staticText>
@@ -1543,7 +1543,7 @@
 								<reportElement x="0" y="0" width="60" height="13" uuid="3e2e04de-1bb8-47ee-816e-fc47cd0e1c89"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{serie}]]></textFieldExpression>
 							</textField>
@@ -1556,7 +1556,7 @@
 								<reportElement x="0" y="0" width="50" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="97c0eaa1-0447-4bea-aecc-39bbbe08bd9e"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Cantidad]]></text>
 							</staticText>
@@ -1566,7 +1566,7 @@
 								<reportElement x="0" y="0" width="50" height="13" uuid="4dfe0d5a-4801-49db-b751-5ba6053d6b8e"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{cantidad}]]></textFieldExpression>
 							</textField>
@@ -1579,7 +1579,7 @@
 								<reportElement x="0" y="0" width="50" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="72fdac9e-1435-4188-b7dd-42cccd4d984c"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Precio]]></text>
 							</staticText>
@@ -1589,7 +1589,7 @@
 								<reportElement x="0" y="0" width="50" height="13" uuid="e26eddae-c8bc-4c91-a68c-eeed50987d86"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{precio}]]></textFieldExpression>
 							</textField>
@@ -1602,7 +1602,7 @@
 								<reportElement x="0" y="0" width="70" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="d5de6176-d42b-4506-a6f7-435a2528f6d2"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Tasa rendimiento]]></text>
 							</staticText>
@@ -1612,7 +1612,7 @@
 								<reportElement x="0" y="0" width="70" height="13" uuid="d27845f8-173b-4cff-b1fa-c0214dac0515"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{tasa}]]></textFieldExpression>
 							</textField>
@@ -1625,7 +1625,7 @@
 								<reportElement x="0" y="0" width="50" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="a75551ae-7894-492a-bd34-eb2eb3496e63"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Premio]]></text>
 							</staticText>
@@ -1635,7 +1635,7 @@
 								<reportElement x="0" y="0" width="50" height="13" uuid="98171800-337b-4d81-992c-78fc2b02c8d1"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{premio}]]></textFieldExpression>
 							</textField>
@@ -1648,7 +1648,7 @@
 								<reportElement x="0" y="0" width="51" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="db469524-fe3e-43a0-88ea-81f175c361a0"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Intereses]]></text>
 							</staticText>
@@ -1658,7 +1658,7 @@
 								<reportElement x="0" y="0" width="51" height="13" uuid="34408c68-3f6d-45dd-bbdc-1a8191bfa9b7"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{intereses}]]></textFieldExpression>
 							</textField>
@@ -1671,7 +1671,7 @@
 								<reportElement x="0" y="0" width="59" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="fea49101-b288-44f6-a6cc-8838f3ab58ce"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Impuesto]]></text>
 							</staticText>
@@ -1681,7 +1681,7 @@
 								<reportElement x="0" y="0" width="59" height="13" uuid="405bf3f5-c98c-4193-bd3f-68203a86cd15"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{impuesto}]]></textFieldExpression>
 							</textField>
@@ -1694,7 +1694,7 @@
 								<reportElement x="0" y="0" width="50" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="71a707c3-058f-4c34-a5fa-f1f9bdba7019"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[IVA]]></text>
 							</staticText>
@@ -1704,7 +1704,7 @@
 								<reportElement x="0" y="0" width="50" height="13" uuid="888cbbf8-ac9d-4993-b891-15cf4bd189f9"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{iVA}]]></textFieldExpression>
 							</textField>
@@ -1717,7 +1717,7 @@
 								<reportElement x="0" y="0" width="60" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="007b2fbd-9072-4908-ae71-f5fd628e5b2a"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Comisión]]></text>
 							</staticText>
@@ -1727,7 +1727,7 @@
 								<reportElement x="0" y="0" width="60" height="13" uuid="7e17e6c2-157c-4621-a6c6-61bac9767e2a"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{comision}]]></textFieldExpression>
 							</textField>
@@ -1740,7 +1740,7 @@
 								<reportElement x="0" y="0" width="60" height="20" forecolor="#FFFFFF" backcolor="#00628F" uuid="555425c0-5ec8-4403-a658-80fa717ecec9"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6" isBold="true"/>
+									<font size="6" isBold="true"/>
 								</textElement>
 								<text><![CDATA[Neto]]></text>
 							</staticText>
@@ -1750,7 +1750,7 @@
 								<reportElement x="0" y="0" width="60" height="13" uuid="3a34b01c-643e-473b-9a88-829660069367"/>
 								<box topPadding="0" leftPadding="8" bottomPadding="2" rightPadding="0"/>
 								<textElement textAlignment="Left" verticalAlignment="Middle">
-									<font fontName="Calibri" size="6"/>
+									<font size="6"/>
 								</textElement>
 								<textFieldExpression><![CDATA[$F{neto}]]></textFieldExpression>
 							</textField>
